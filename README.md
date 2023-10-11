@@ -1,11 +1,11 @@
-![Huddle landing page with a single introductory section]()
+![Huddle landing page with a single introductory section](https://github.com/NathanRayM/Huddle-landing-page-Frontend-Mentor/blob/main/huddlechallengeSS.png)
 
 <h1 align="center">Huddle landing page with a single introductory section</h1>
 
 <div align="center">
 
-[Live]()
-| [Solution]()
+[Live](https://nathanraym.github.io/Huddle-landing-page-Frontend-Mentor/)
+| [Solution](https://github.com/NathanRayM/Huddle-landing-page-Frontend-Mentor.git)
 | [Challenge](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0)
 
 Solution for a challenge from [frontendmentor.io](https://www.frontendmentor.io/)
