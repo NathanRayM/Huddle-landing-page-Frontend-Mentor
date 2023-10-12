@@ -43,7 +43,6 @@ body{
   justify-content: center;
   gap: 55px;
   align-items: center;
-  margin-bottom: ;
   /*border: 2px solid green;*/
 
 }
@@ -141,6 +140,104 @@ button:hover{
   text-align: center;
 }
 
+@media (max-width: 768px){
+  body{
+    height: 100dvh;
+    width: 100vw;
+  font-size: 16px;
+  background-color: var(--Violet);
+  }
+  .main-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top center;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: auto;
+    }
+  
+  .header{
+   width: 375px;
+  height: 90px;
+   }
+
+  .header-image{
+    width: 130px;
+    margin-left: 30px;
+  }
+  .main-container{
+    display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      gap: 180px;
+      width: 375px;
+  }
+  .right-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 275px;
+    margin-bottom: 35px;
+  }
+.left-image{
+  width: 300px;
+  object-fit: cover;
+}
+.heading{
+  font-size: 23px;
+  width: 275px;
+  text-align: center;
+  font-weight: 550;
+  
+  
+}
+.paragraph{
+  font-size: 15px;
+  width: 320px;
+  opacity: 90%;
+  font-weight: 400px;
+  text-align: center;
+  letter-spacing: 0.8px;
+  margin-top: -10px;
+  font-family: Open Sans;
+  line-height: 1.5;
+}
+button{
+  padding-top: 13px;
+  padding-bottom:13px;
+  font-size: 12px;
+  width: 195px;
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icons{
+  margin-right: 0px;
+  display: flex;
+  gap: 15px;
+}
+.fa{
+  padding: 8px;
+  border-radius: 50%;
+  object-fit: cover;
+  width: 40px;
+}
+.fa-facebook{
+  color: white;
+  text-decoration: none;
+  border: 2px solid white;
+  text-align: center;
+ 
+}
+}
 
 
 @media (max-width: 375px){
@@ -243,3 +340,4 @@ button{
  
 }
 }
+
